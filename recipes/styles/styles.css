@@ -2,4 +2,18 @@ body {
     font-family: Arial, sans-serif;
     border: 0;
     margin: 0;
+    font-size: 1.5vw;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+li {
+    margin: 10px 0px 10px 0px;
+}
+#recipe-heading,
+#recipe-description {
+    margin: 10px 0px 10px 0px;
 }
